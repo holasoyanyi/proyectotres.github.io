@@ -6,7 +6,7 @@ loadMoreBtn1.onclick = () => {
     '.box-container-1 .box-1'
   )];
   for (var i = currentItem1; i < currentItem1 + 4; i++) {
-    boxes[i].style.display = 'inline-block';
+    boxes[i].style.display = 'inline-flex';
   }
   currentItem1 += 4;
   if (currentItem1 >= boxes.length) {
@@ -26,7 +26,7 @@ loadMoreBtn2.onclick = () => {
     '.box-container-2 .box-2'
   )];
   for (var i = currentItem2; i < currentItem2 + 4; i++) {
-    boxes[i].style.display = 'inline-block';
+    boxes[i].style.display = 'inline-flex';
   }
   currentItem2 += 4;
   if (currentItem2 >= boxes.length) {
@@ -44,7 +44,7 @@ loadMoreBtn3.onclick = () => {
     '.box-container-3 .box-3'
   )];
   for (var i = currentItem3; i < currentItem3 + 4; i++) {
-    boxes[i].style.display = 'inline-block';
+    boxes[i].style.display = 'inline-flex';
   }
   currentItem3 += 4;
   if (currentItem3 >= boxes.length) {
